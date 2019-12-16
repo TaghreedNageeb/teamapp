@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Table from './Table';
-import Form from './Form';
+import Container from './Container'
 
 class App extends Component {
   
 
   render() {
     return (
-      <div>       
+      <div>
+        <Container/>
       </div>
     );
   }
