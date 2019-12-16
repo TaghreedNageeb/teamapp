@@ -10,7 +10,7 @@ export default class Form extends Component {
             value={this.props.value}
             onChange={this.props.handleChange2}
           />
-          <button>ADD</button>
+          <button><i className="fa fa-plus"></i></button>
         </form>
       </fieldset>
     );
